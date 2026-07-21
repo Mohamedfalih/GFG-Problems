@@ -12,9 +12,7 @@ class Solution {
 		 
 		int remainder = nSqr%divides;
 		int quotient = nSqr/divides;
-		if(remainder == 0 ) {
-			return false;
-		}
+		
 		return( quotient+remainder == org);
     }
 };
